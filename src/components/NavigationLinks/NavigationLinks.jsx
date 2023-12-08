@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Icon from '../Icon/Icon';
 import './NavigationLinks.scss'
 
 const NavigationLinks = (props = []) => {
@@ -15,7 +14,6 @@ const NavigationLinks = (props = []) => {
                 <NavLink to={item.path} >
                   {item.image && <img src={item.image.src} alt={item.image.alt}/>}
                   {item.title && <span>{item.title}</span>}
-                  {item.icon && <Icon icon={item.icon} />}
                 </NavLink>
               </li>
             )

@@ -1,6 +1,7 @@
 import React from 'react'
 import NavigationLinks from '../NavigationLinks/NavigationLinks'
 import './TopNavigation.scss'
+import Cart from '../cart/cart'
 
 const TopNavigation = () => {
   const navLinks = [
@@ -31,15 +32,15 @@ const TopNavigation = () => {
     {
       title: 'Questions',
       path: '/faqs'
-    },
-    {
-      icon: 'cart'
     }
   ]
 
   return (
     <div className='top-navigation-bar'>
       <NavigationLinks navLinks={navLinks}></NavigationLinks>
+      <span className='cart'>
+        <Cart></Cart>
+      </span>
     </div>
   )
 }

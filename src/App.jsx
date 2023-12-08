@@ -8,23 +8,27 @@ import Plants from './views/Plants/Plants'
 import Cacti from './views/Cacti/Cacti'
 import OurStory from './views/OurStory/OurStory'
 import Faqs from './views/Faqs/Faqs'
+import { Provider } from 'react-redux'
+import store from './store/store'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <BrowserRouter>
-      <TopNavigation />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path='/shop_all' element={<ShopAll />} />
-        <Route path='/plants' element={<Plants />} />
-        <Route path='/cacti' element={<Cacti />} />
-        <Route path='/our_story' element={<OurStory />} />
-        <Route path='/faqs' element={<Faqs />} />
-      </Routes>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <TopNavigation />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='/shop_all' element={<ShopAll />} />
+          <Route path='/plants' element={<Plants />} />
+          <Route path='/cacti' element={<Cacti />} />
+          <Route path='/our_story' element={<OurStory />} />
+          <Route path='/faqs' element={<Faqs />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
     </>
   )
 }
