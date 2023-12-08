@@ -1,0 +1,14 @@
+:root {
+  --main-background-color: #fff
+}
+
+.top-navigation-bar{
+  background: var(--main-background-color);
+  top: 0;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}

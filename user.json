@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "user_name": "John Smith",
+      "password": "123123123",
+      "user_image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    }
+  ]
+}
