@@ -1,7 +1,7 @@
 import React from 'react'
 import NavigationLinks from '../NavigationLinks/NavigationLinks'
 import './TopNavigation.scss'
-import Cart from '../cart/cart'
+import Cart from '../Cart/Cart'
 
 const TopNavigation = () => {
   const navLinks = [
