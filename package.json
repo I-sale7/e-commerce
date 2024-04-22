@@ -10,8 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "feather-icons-react": "^0.6.2",
+    "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-redux": "^9.0.1",
+    "react-router-dom": "^6.22.3",
+    "redux": "^5.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^3.1.0",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
