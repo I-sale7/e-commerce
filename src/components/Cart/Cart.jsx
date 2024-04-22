@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Icon from '../Icon/Icon';
+import Icon from '../Icon/CartIcon';
 import './Cart.scss'
 import { useSelector } from 'react-redux';
 

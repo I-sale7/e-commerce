@@ -10,13 +10,22 @@ Currently, two official plugins are available:
 
 ---
 
+## Installation
+Before starting the project letest install the needed plugins and libraries to get started.
+
 ### Install Vite
-First we need to install vite after cloning the project.
 `npm install vite@latest`
 
 ### Install React router
-We are using React router to move between the pages in the system.
 `npm install react-dom-router`
+
+### Install JSON-Server
+We are using JSON-server to handle the dummy data we are using for the Cart and the planets.
+`npm install json-server`
+
+### Run JSON-server
+To run the JSON-server:
+`npx json-server cart.json`
 
 ### Run the Project
 To run the project.
